@@ -1,12 +1,13 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
+import MainLayout from './components/MainLayout';
+import CustomSlider from './components/Slider';
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    </>
+    <MainLayout>
+      <CustomSlider />
+    </MainLayout>
   );
 }
 
